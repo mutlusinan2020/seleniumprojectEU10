@@ -24,6 +24,10 @@ public class gmail_task {
         WebElement sendmail = driver.findElement(By.xpath("//*[@id='composebtn']"));
         sendmail.click();
 
+        WebElement senderOfMail = driver.findElement(By.xpath("//*[@id='to']"));
+        senderOfMail.sendKeys("mutlusinan2011@gmail.com");
+
+
 
 
     }
