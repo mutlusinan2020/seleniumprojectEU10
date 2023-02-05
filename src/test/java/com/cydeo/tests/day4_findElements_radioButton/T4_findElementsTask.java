@@ -23,6 +23,8 @@ public class T4_findElementsTask {
 
         System.out.println(allLinks.size());    //HOW MANY LINKS ON THE PAGE??? ""size" method
 
+
+
         for (WebElement each : allLinks) {
             System.out.println(each.getText());
             System.out.println(each.getAttribute("href"));
