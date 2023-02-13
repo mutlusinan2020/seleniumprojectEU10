@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 public class WebTablePractice {
 
-    WebDriver driver;
+    public WebDriver driver;
 
     @Test
     public void WebTablesPractice(){
